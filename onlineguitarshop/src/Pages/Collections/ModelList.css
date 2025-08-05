@@ -1,0 +1,316 @@
+.model-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+
+.model-list-left {
+  flex: 1;
+  padding-right: 20px;
+  position: relative;
+}
+
+.model-list-right {
+  position: relative;
+  width: 672px;
+  height: 459px;
+}
+
+.back-home-link {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 2px;
+  display: inline-block;
+}
+
+.vibestrings-logo {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  gap: 10px;
+}
+
+.vibestrings-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.unsplash-img {
+  width: 672px;
+  height: 459px;
+  border-bottom-right-radius: 151px;
+  border-bottom-left-radius: 360px;
+  object-fit: cover;
+  position: relative;
+}
+
+.ibanez-img {
+  position: absolute;
+  top: 62px;
+  left: 110px;
+  width: 451px;
+  height: 280px;
+  opacity: 0.4;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.group-icon {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 419px;
+  left: 444px;
+}
+
+.main-title {
+  width: 536px;
+  height: 239px;
+  position: absolute;
+  top: 185px;
+  left: 120px;
+  opacity: 1;
+  text-align: center;
+  z-index: 5;
+}
+
+.main-heading {
+  white-space: nowrap;
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.orange-text {
+  color: #FF5B1C;
+}
+
+.main-description {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.check-selection {
+  position: absolute;
+  width: 487px;
+  height: 59px;
+  top: 571px;
+  left: 530px;
+  opacity: 1;
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 5;
+}
+
+.orange-selection {
+  color: #FF5B1C;
+}
+
+.filters-container {
+  position: absolute;
+  top: 686px;
+  left: 484px;
+  display: flex;
+  gap: 16px;
+  z-index: 5;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon {
+  position: absolute;
+  left: 16px;
+  width: 24px;
+  height: 24px;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.type-filter,
+.search-bar {
+  padding-left: 48px;
+  height: 74px;
+  border-radius: 4px;
+  border: 1px solid #D0D0D0;
+  font-size: 18px;
+  font-family: 'Satoshi', sans-serif;
+  opacity: 1;
+  color: #B8B8C0;
+}
+
+.type-filter {
+  width: 334px;
+}
+
+.search-bar {
+  width: 385px;
+}
+
+.gitarat-frame {
+  position: absolute;
+  top: 900px;
+  left: 120px;
+  width: 1199.999755859375px;
+  height: 676px;
+  opacity: 1;
+  z-index: 5;
+}
+
+.gitarat-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+
+.results-text {
+  position: absolute;
+  top: 1650px;
+  left: 120px;
+  width: 1199.999755859375px;
+  font-family: 'Circular Std', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: uppercase;
+  z-index: 5;
+}
+
+.more-image {
+  position: absolute;
+  top: 1650px;
+  width: 423px;
+  height: 32px;
+  opacity: 1;
+  z-index: 5;
+  left: 870px;
+}
+
+
+.below-more-image {
+  position: absolute;
+  top: 1730px; /* adjust as needed to place it just below .more-image */
+  left: 2px; /* align to your layout */
+  width: 1440px;
+  height: 380px;
+  opacity: 1;
+  z-index: 5;
+}
+
+.below-more-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+@media (max-width: 1200px) {
+  .model-list-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .model-list-left {
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .model-list-right {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+  }
+
+  .unsplash-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .ibanez-img {
+    width: 60%;
+    height: auto;
+    top: 10%;
+    left: 20%;
+  }
+
+  .group-icon {
+    top: 80%;
+    left: 70%;
+  }
+
+  .main-title {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .check-selection {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .filters-container {
+    position: static;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .gitarat-frame {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+  }
+
+  .gitarat-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .main-heading {
+    font-size: 40px;
+  }
+
+  .check-selection {
+    font-size: 32px;
+  }
+
+  .type-filter,
+  .search-bar {
+    width: 100%;
+    max-width: 485px;
+  }
+}

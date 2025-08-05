@@ -1,0 +1,187 @@
+.brand-page {
+  padding: 0 120px;
+  font-family: 'Satoshi', sans-serif;
+  color: #000;
+}
+
+.brand-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 62px;
+  margin-bottom: 50px;
+}
+
+.logo-left {
+  width: 508px;
+}
+
+.logo-and-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 160px;
+  height: 32px;
+  margin-bottom: 32px;
+  opacity: 1;
+}
+
+.vibestrings-text {
+  font-family: Satoshi;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.main-title {
+  width: 508px;
+  height: 194px;
+  position: absolute;
+  top: 235px;
+  left: 120px;
+  opacity: 1;
+  text-align: center;
+}
+
+.main-heading {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 56px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.main-description {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin-top: 16px;
+}
+
+.orange-text {
+  color: #FF5B1C; /* or use your gradient's end color */
+}
+
+/* ----GitareDeti-------------------- */
+.logo-right {
+  position: relative;
+  width: 672px;
+  height: 586px;
+  margin-left: 768px; 
+  opacity: 1;
+}
+
+.guitar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-bottom-right-radius: 151px;
+  border-bottom-left-radius: 360px;
+  opacity: 1;
+  transform: rotate(0deg);
+}
+/* ------------------------------- */
+
+.brand-list {
+  width: 100%;
+  max-width: 1275.34px;
+  margin: 60px auto 0 auto;
+  text-align: center;
+  opacity: 1;
+}
+
+.brand-list h3 {
+  font-family: Satoshi, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin-bottom: 12px;
+}
+
+.brand-list .orange-text {
+  color: #FF5B1C;
+}
+
+.brand-list p {
+  font-family: Satoshi, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin-bottom: 32px;
+}
+
+.brand-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 1275.34px;
+  height: 286px; 
+}
+
+.brand-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.brand-list li img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  background-color: #ffffff; 
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* ---------------
+ */
+.group-image-wrapper {
+  width: 1440px;
+  height: 508px;
+  margin: 80px auto 0 auto; 
+
+}
+
+
+.group-image {
+  width: 100%; /* fill wrapper width */
+  height: 100%; /* fill wrapper height */
+  object-fit: cover;
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
+
+/* ---------------------- */
+.Favoreite-Guitar-Brands {
+  width: 1172px;
+  height: 533px;
+  margin: 60px auto 0 auto; /* add some space from the previous section */
+  opacity: 1;
+}
+
+.group-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: rotate(0deg);
+  display: block;
+}
+

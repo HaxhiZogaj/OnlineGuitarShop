@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Satoshi', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+a:focus, button:focus, input:focus, select:focus {
+  outline: 2px solid #FF5B1C;
+  outline-offset: 2px;
+}
