@@ -1,5 +1,7 @@
 .footer-container {
   position: relative;
+  top: -15px;
+  left: -90px;
   width: 1440px;
   height: 380px;
   margin: 0 auto; /* centers the footer horizontally */

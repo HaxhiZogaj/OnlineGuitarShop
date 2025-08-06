@@ -1,0 +1,270 @@
+.support-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px 120px;
+  font-family: 'Satoshi', sans-serif;
+  color: #000;
+  max-width: 1440px;
+  margin: 0 auto;
+  gap: 60px;
+}
+
+.support-left {
+  flex: 1;
+  max-width: 600px;
+}
+
+.vibestrings-logo {
+ display: flex;
+  align-items: center;
+  margin-top: 0;
+  gap: 10px;
+}
+
+.back-BrandList-link {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 2px;
+  display: inline-block;
+}
+
+.vibestrings-text {
+ font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.support-title {
+  width: 536px;
+  height: 152px;
+  position: absolute;
+  top: 255px;
+  left: 200px;
+  opacity: 1;
+  z-index: 2;
+}
+
+.main-heading {
+  font-size: 56px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1;
+}
+
+.second-heading {
+  margin-top: 15px;     /* Adds space between the lines */
+  margin-left: 40px;    /* Pushes it more to the right */
+}
+
+
+.support-content h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.support-content p {
+  font-size: 16px;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.support-list {
+  list-style: none;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.support-right {
+  position: relative;
+  width: 672px;
+  height: 586px;
+}
+
+.unsplash-image {
+  width: 672px;
+  height: 459px;
+  border-bottom-right-radius: 151px;
+  border-bottom-left-radius: 360px;
+  object-fit: cover;
+  position: relative;
+}
+
+.guitar-overlay {
+  position: absolute;
+  width: 137.25px;
+  height: 449.12px;
+  top: -10px;      
+  left: 320px;   
+  transform: rotate(38.69deg);
+  border-radius: 12px;
+  z-index: 2;
+  opacity: 0.85;
+  pointer-events: none;
+}
+
+
+.group-icon {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 420px;
+  left: 370px;
+  z-index: 2;
+}
+
+
+.tab-container {
+  position: absolute;  
+  top: 650px;                  
+  left: 50%;                   
+  transform: translateX(-50%);  
+  width: 1440px;
+  height: 69px;
+  display: flex;
+  justify-content: center;      
+  gap: 640px;                   
+  text-align: center;
+  opacity: 1;
+}
+
+
+.tab {
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #000;
+}
+
+.tab.active {
+  color: #FF6428;
+}
+
+
+ .tab-line {
+  height: 2px; 
+  width: 650%; 
+  margin: 8px auto 0 auto; 
+  background-color: rgb(199, 197, 197);
+  border-radius: 2px;
+  transform: translateX(-50%); 
+}
+
+.tab.active .tab-line {
+  background-color: #FF6428;
+}
+
+.tab-content {
+  margin-top: 630px;
+  max-width: 580px;
+}
+
+.spec-text {
+  width: 1277px;
+  height: 160px;
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 300;     
+  font-size: 24px;
+  line-height: 1;     
+  letter-spacing: 0;
+  color: #333;      
+  margin-top: 20px;   
+}
+
+
+.spec-list {
+  width: 455px;
+  height: 224px;
+  position: absolute; 
+  top: 942px;
+  left: 150px;
+  opacity: 1;
+
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 300;
+  font-style: normal; 
+  font-size: 24px;
+  line-height: 100%; 
+  letter-spacing: 0;
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #000;
+  margin: 0;
+}
+
+.spec-list li {
+  margin-bottom: 12px; 
+}
+
+.spec-list li span {
+  font-weight: 500; 
+}
+
+
+.container {
+  position: relative;
+  width: 1027px;
+  height: 549px;
+  top: -15px;
+  left: 117px;
+  opacity: 1;
+}
+
+.container img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer-img {
+  position: relative; 
+  top: 340px;
+  left: 35%;   
+  transform: translateX(-50%);
+}
+
+.pikat-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 370px; 
+}
+
+
+
+@media (max-width: 1024px) {
+  .support-page {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  .support-right {
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+  }
+
+  .unsplash-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .group-icon {
+    top: 80%;
+    left: 70%;
+  }
+
+  .main-heading {
+    font-size: 42px;
+  }
+
+  .support-content h2 {
+    font-size: 24px;
+  }
+}

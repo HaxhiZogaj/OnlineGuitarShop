@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<BrandList />} />
-        <Route path="/models/:brandName" element={<ModelList />} />
+        <Route path="/BrandList" element={<ModelList />} />
         <Route path="/Support" element={<Support />} />
       </Routes>
        {/*  <Footer />  */}

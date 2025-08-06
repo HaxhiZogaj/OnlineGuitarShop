@@ -8,7 +8,6 @@ import Footer from '../../components/Footer/footer';
 import { GET_ALL_BRANDS } from '../../graphql/queries';
 import './BrandList.css';
 
-
 const BrandList = () => {
   const { loading, error, data } = useQuery(GET_ALL_BRANDS);
   const navigate = useNavigate();
@@ -76,6 +75,7 @@ const BrandList = () => {
 <div className="Favoreite-Guitar-Brands">
   <img src={Group5208} alt="Group" className="group-image" />
 </div>
+
 
 <Footer /> 
     </div>

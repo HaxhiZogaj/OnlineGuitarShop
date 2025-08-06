@@ -50,11 +50,10 @@ const ModelList = () => {
           <div className="input-wrapper">
             <img src={filterIcon} className="input-icon" alt="Filter Icon" />
             <select className="type-filter">
-              <option value="">Filter by guitar type</option>
-              <option value="electric">Electric</option>
-              <option value="acoustic">Acoustic</option>
+              <option value="">Filter by type</option>
               <option value="bass">Bass</option>
-              <option value="classical">Classical</option>
+              <option value="acoustic">Acoustic</option>
+              <option value="electric">Electric</option>
             </select>
           </div>
 
@@ -63,7 +62,7 @@ const ModelList = () => {
             <input
               type="text"
               className="search-bar"
-              placeholder="Search by model name..."
+              placeholder="Search by name"
             />
           </div>
         </div>
